@@ -314,6 +314,43 @@ document.addEventListener("DOMContentLoaded", function () {
   checkFields();
 });
 
+// ---------- Altera para 100% o valor padrão quando o usuário Seleciona CDI e volta para 10 caso outra seleção seja feita  ----------
+document
+  .getElementById("tipoinvestimento")
+  .addEventListener("change", function () {
+    adjustValuesBasedOnSelection();
+  });
+
+document.getElementById("taxaSwitch").addEventListener("change", function () {
+  adjustValuesBasedOnSelection();
+});
+
+function adjustValuesBasedOnSelection() {
+  let investmentType = document.getElementById("tipoinvestimento").value;
+  let isLiquido = document.getElementById("taxaSwitch").checked;
+
+  if (investmentType === "cdi") {
+    if (isLiquido) {
+      document.getElementById("liquido").value = 80; // Altera para o valor desejado para CDI + Líquido
+    } else {
+      document.getElementById("bruto").value = 100; // Altera para o valor desejado para CDI + Bruto
+    }
+  } else if (investmentType === "ipca") {
+    if (isLiquido) {
+      document.getElementById("liquido").value = 4; // Altera para o valor desejado para CDI + Líquido
+    } else {
+      document.getElementById("bruto").value = 6; // Altera para o valor desejado para CDI + Bruto
+    }
+  } else {
+    // Reset os valores para os padrões quando outra opção é selecionada
+    if (isLiquido) {
+      document.getElementById("liquido").value = 8; // Altera para o valor desejado para CDI + Líquido
+    } else {
+      document.getElementById("bruto").value = 10; // Altera para o valor desejado para CDI + Bruto
+    }
+  }
+}
+
 // ---------- Adicionando event listener aos campos ----------
 document.getElementById("cdiacumulado").addEventListener("input", function () {
   calcularResultados();
