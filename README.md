@@ -7,6 +7,8 @@
 
 ## Converte Taxas Pré-Fixadas, CDI e IPCA+. Saiba quanto vale o título bruto em líquido e as taxas líquidas em brutas corretamente. Utilizado especialmente para Investimentos de Renda Fixa.
 
+## 🔗 [Link Live: Calculadora de Rendimento Bruto/Líquido](https://devfel.github.io/calculadora-rendimento-bruto-liquido/) 🔗
+
 ![Calculadora Renda Fixa](CalculadoraRendaFixa.jpg)
 
 ## Table of Contents
