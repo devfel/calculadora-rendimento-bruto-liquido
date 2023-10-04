@@ -1,0 +1,97 @@
+/* Base and Typography */
+body {
+  font-family: "Lato", "Montserrat", sans-serif;
+  background-color: #ebecee;
+  background-image: url("./math02.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 10px auto;
+  background: rgba(255, 255, 255, 0.98);
+  padding: 20px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 10px;
+  color: #001;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #111;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+}
+
+/* Form Styling */
+.form-control {
+  height: 40px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+}
+
+.form-label {
+  display: block;
+  color: #3e485c;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Additional elements */
+.ipcavalue,
+.cdivalue {
+  font-size: 12px;
+  background-color: #1e62d8;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.material-icons {
+  vertical-align: middle;
+  color: #999;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+thead.thead-light th {
+  background-color: #ebecee;
+  border-color: #ced4da;
+}
+
+.separator {
+  width: 1px;
+  height: 24px;
+  background-color: #a9a9a9;
+}
+
+.container-header {
+  position: relative;
+  max-width: 1200px;
+  margin: 0px 10px 30px 10px;
+  background-color: #dcdcdc;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #a9a9a9;
+}

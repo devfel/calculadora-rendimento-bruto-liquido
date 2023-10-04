@@ -1,0 +1,39 @@
+1 Ano: 
+10	8.0067
+Resultado com Taxa Bruta:
+Montante Bruto: R$ 110.00
+Desconto IR: R$ 2.00
+Montante Final: R$ 108.00
+
+Resultado com Taxa Líquida:
+Montante Final: R$ 108.00
+
+
+3 Anos: 
+10	8.6174
+Resultado com Taxa Bruta:
+Montante Bruto: R$ 133.10
+Desconto IR: R$ 4.97
+Montante Final: R$ 128.14
+
+Resultado com Taxa Líquida:
+Montante Final: R$ 128.13
+
+30 Anos: 
+10	9.4424
+Resultado com Taxa Bruta:
+Montante Bruto: R$ 1744.94
+Desconto IR: R$ 246.74
+Montante Final: R$ 1498.20
+
+Resultado com Taxa Líquida:
+Montante Final: R$ 1498.19
+
+
+TODO: 
+Arrumar Separadores de Milhar.
+Ver API pra pegar Taxas acumuladas.
+Verificar Design Celular/Tablet. 
+Mudar para CDI, multiplica a taxa bruto por 100.
+Colocar no github.
+Avisar CriadorC. 
